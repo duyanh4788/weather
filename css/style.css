@@ -1,0 +1,98 @@
+.container {
+  width: 400px;
+  height: auto;
+  margin: 50px auto;
+  border-radius: 10px;
+  padding: 10px;
+  background: linear-gradient(145deg, #2193b0, #94d1a2);
+}
+
+.container .search {
+  text-align: center;
+  padding: 10px 0;
+  color: white;
+  border-bottom: 1px solid white;
+}
+
+.container .search #searchInput {
+  width: 70%;
+  height: 20px;
+  border: none;
+  outline: none;
+  background: none;
+  margin-left: 5px;
+  color: white;
+}
+
+.container .search #searchInput::-webkit-input-placeholder {
+  color: rgba(245, 245, 245, 0.856);
+}
+
+.container .search #searchInput:-ms-input-placeholder {
+  color: rgba(245, 245, 245, 0.856);
+}
+
+.container .search #searchInput::-ms-input-placeholder {
+  color: rgba(245, 245, 245, 0.856);
+}
+
+.container .search #searchInput::placeholder {
+  color: rgba(245, 245, 245, 0.856);
+}
+
+.container .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  border-bottom: 1px solid white;
+  height: 300px;
+}
+
+.container .content .tenTP {
+  margin: 20px 0;
+  font-size: 30px;
+  font-weight: lighter;
+}
+
+.container .content .thongTin {
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+.container .content .nhietDo {
+  font-size: 100px;
+  font-weight: lighter;
+  position: relative;
+}
+
+.container .content .nhietDo::after {
+  content: " o ";
+  position: absolute;
+  font-size: 30px;
+}
+
+.container .parameter {
+  margin: 10px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: white;
+  font-size: 20px;
+  padding: 0 10px;
+}
+
+.container .parameter .sideB {
+  padding-left: 10px;
+}
+/*# sourceMappingURL=style.css.map */

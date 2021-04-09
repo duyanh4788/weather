@@ -1,0 +1,64 @@
+.container {
+    width: 400px;
+    height: auto;
+    margin: 50px auto;
+    border-radius: $mg-x;
+    padding: $mg-x;
+    background: $bg;
+    .search {
+        text-align: center;
+        padding: $mg-x 0;
+        color: $cl-0;
+        border-bottom: $borderBT ;
+        #searchInput {
+            width: 70%;
+            height: $mg-x2;
+            border: none;
+            outline: none;
+            background: none;
+            margin-left: 5px;
+            color: $cl-0;
+        }
+        #searchInput::placeholder {
+            color: rgba(245, 245, 245, 0.856);
+        }
+    }
+    .content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: $cl-0;
+        border-bottom: $borderBT ;
+        height: 300px;
+        .tenTP {
+            margin: $mg-x2 0;
+            font-size: $fs-3;
+            font-weight: lighter;
+        }
+        .thongTin {
+            font-size: $fs-2;
+            font-weight: lighter;
+        }
+        .nhietDo {
+            font-size: $fs-4;
+            font-weight: lighter;
+            position: relative;
+        }
+        .nhietDo::after {
+            content: " o ";
+            position: absolute;
+            font-size: $fs-3;
+        }
+    }
+    .parameter {
+        margin: $mg-x 0;
+        display: flex;
+        color: $cl-0;
+        font-size: $fs-2;
+        padding: 0 $mg-x ;
+        .sideB{
+            padding-left: $mg-x;
+        }
+    }
+}
